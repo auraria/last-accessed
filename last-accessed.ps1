@@ -1,4 +1,4 @@
-$dirs = "C:\users\*", "C:\temp\"  #Add multiple comma delimited dirs if wanted
+$dirs = "C:\users\*"  #Add multiple comma delimited dirs if wanted
 #can also run this against a remote host by placing \\HOSTNAME or IP\C$\
 
 foreach ($d in $dirs){
